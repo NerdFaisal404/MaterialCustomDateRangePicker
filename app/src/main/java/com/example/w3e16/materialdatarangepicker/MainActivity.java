@@ -19,7 +19,8 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView  checkInOutview;
+    private TextView checkInOutview;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
             String end = splitsValue[1];
             try {
                 dateStart = formatter.parse(start);
-                ;
+
                 dateEnd = formatter.parse(end);
-                ;
+
             } catch (ParseException e) {
                 e.printStackTrace();
             }
