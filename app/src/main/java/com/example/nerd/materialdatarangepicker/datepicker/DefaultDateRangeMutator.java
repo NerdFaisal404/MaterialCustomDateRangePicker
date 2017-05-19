@@ -2,9 +2,6 @@ package com.example.nerd.materialdatarangepicker.datepicker;
 
 import java.util.Calendar;
 
-/**
- * Creado por jcvallejo en 17/11/16.
- */
 public class DefaultDateRangeMutator implements DateRangeView.DateRangeMutator {
     @Override
     public void mutateRangeWithDay(DateRange dateRange, Calendar day) {

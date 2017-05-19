@@ -9,10 +9,6 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * Creado por jcvallejo en 14/11/16.
- */
-
 public class MonthViewPagerAdapter extends PagerAdapter {
     private final int monthCount;
     private final int todayMonthIndex;

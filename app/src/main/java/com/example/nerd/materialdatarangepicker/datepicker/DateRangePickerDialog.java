@@ -16,9 +16,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Creado por jcvallejo en 18/11/16.
- */
 
 public class DateRangePickerDialog extends MaterialDialog implements DateRangeView.DateRangeViewListener {
     private static final SimpleDateFormat CALENDAR_HEADER_DATE_FORMAT = new SimpleDateFormat("MMMM y", Locale.getDefault());

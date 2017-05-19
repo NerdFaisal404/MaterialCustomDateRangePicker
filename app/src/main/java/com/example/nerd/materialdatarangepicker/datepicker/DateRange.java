@@ -2,10 +2,6 @@ package com.example.nerd.materialdatarangepicker.datepicker;
 
 import java.util.Calendar;
 
-/**
- * Creado por jcvallejo en 17/11/16.
- */
-
 public class DateRange {
     private Calendar from;
     private Calendar to;

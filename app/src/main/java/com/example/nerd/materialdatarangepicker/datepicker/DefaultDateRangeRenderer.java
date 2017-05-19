@@ -14,9 +14,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
-/**
- * Creado por jcvallejo en 14/11/16.
- */
 public class DefaultDateRangeRenderer implements DateRangeView.DateRangeRenderer {
     private static final SimpleDateFormat DAY_FORMAT = new SimpleDateFormat("d", Locale.getDefault());
 
