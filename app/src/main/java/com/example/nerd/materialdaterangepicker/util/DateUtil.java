@@ -1,4 +1,4 @@
-package com.example.nerd.materialdatarangepicker.util;
+package com.example.nerd.materialdaterangepicker.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.example.nerd.materialdatarangepicker;
+package com.example.nerd.materialdaterangepicker;
 
 import org.junit.Test;
 

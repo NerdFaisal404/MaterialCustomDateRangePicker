@@ -1,4 +1,4 @@
-package com.example.nerd.materialdatarangepicker.datepicker;
+package com.example.nerd.materialdaterangepicker.datepicker;
 
 import java.util.Calendar;
 
