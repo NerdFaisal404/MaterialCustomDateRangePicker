@@ -1,4 +1,4 @@
-package com.example.w3e16.materialdatarangepicker.datepicker;
+package com.example.nerd.materialdatarangepicker.datepicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,7 +8,7 @@ import android.graphics.RectF;
 import android.support.v4.content.ContextCompat;
 import android.text.TextPaint;
 
-import com.example.w3e16.materialdatarangepicker.R;
+import com.example.nerd.materialdatarangepicker.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

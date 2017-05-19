@@ -115,7 +115,7 @@
             tools:text="September 2017" />
 
 
-        <com.example.w3e16.materialdatarangepicker.datepicker.DateRangeView
+        <com.example.nerd.materialdatarangepicker.datepicker.DateRangeView
             android:id="@+id/calendar_range"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

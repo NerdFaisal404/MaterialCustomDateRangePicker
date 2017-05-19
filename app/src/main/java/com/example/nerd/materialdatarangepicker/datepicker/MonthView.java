@@ -1,4 +1,4 @@
-package com.example.w3e16.materialdatarangepicker.datepicker;
+package com.example.nerd.materialdatarangepicker.datepicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.example.w3e16.materialdatarangepicker.R;
+import com.example.nerd.materialdatarangepicker.R;
 
 import java.util.Calendar;
 

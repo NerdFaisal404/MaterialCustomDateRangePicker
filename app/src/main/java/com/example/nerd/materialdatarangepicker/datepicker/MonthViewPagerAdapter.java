@@ -1,4 +1,4 @@
-package com.example.w3e16.materialdatarangepicker.datepicker;
+package com.example.nerd.materialdatarangepicker.datepicker;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;

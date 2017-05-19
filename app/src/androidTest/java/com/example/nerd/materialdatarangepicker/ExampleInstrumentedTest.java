@@ -1,4 +1,4 @@
-package com.example.w3e16.materialdatarangepicker;
+package com.example.nerd.materialdatarangepicker;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

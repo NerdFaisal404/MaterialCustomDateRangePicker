@@ -1,4 +1,4 @@
-package com.example.w3e16.materialdatarangepicker.util;
+package com.example.nerd.materialdatarangepicker.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

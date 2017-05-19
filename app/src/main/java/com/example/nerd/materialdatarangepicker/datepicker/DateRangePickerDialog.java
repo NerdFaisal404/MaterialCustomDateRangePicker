@@ -1,4 +1,4 @@
-package com.example.w3e16.materialdatarangepicker.datepicker;
+package com.example.nerd.materialdatarangepicker.datepicker;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.example.w3e16.materialdatarangepicker.R;
-import com.example.w3e16.materialdatarangepicker.util.DateUtil;
+import com.example.nerd.materialdatarangepicker.R;
+import com.example.nerd.materialdatarangepicker.util.DateUtil;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
