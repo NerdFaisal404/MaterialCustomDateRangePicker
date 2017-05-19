@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/nightCount_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="0 Night"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nightCount_textView">
+
+            <ImageView
+                android:id="@+id/selectUnselect_iv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/unactive_date_picker" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/check_in_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Check in"
+                    android:textSize="14sp"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:id="@+id/viewInline"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/check_out_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="14sp"
+                    android:text="Check out"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calendar_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:paddingTop="8dp"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/calendar_prev"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_prev_24dp" />
+
+        <ImageButton
+            android:id="@+id/calendar_next"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_next_24dp" />
+
+        <TextView
+            android:id="@+id/calendar_header"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/calendar_next"
+            android:layout_alignTop="@id/calendar_next"
+            android:layout_toEndOf="@id/calendar_prev"
+            android:layout_toLeftOf="@id/calendar_next"
+            android:layout_toRightOf="@id/calendar_prev"
+            android:layout_toStartOf="@id/calendar_next"
+            android:gravity="center"
+            tools:text="September 2017" />
+
+
+        <com.example.w3e16.materialdatarangepicker.datepicker.DateRangeView
+            android:id="@+id/calendar_range"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/calendar_header"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            app:drp_rowHeight="5dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MonthView">
+        <attr name="drp_rowHeight" format="dimension" />
+        <attr name="drp_weekdayLabelTextColor" format="color" />
+        <attr name="drp_weekdayLabelTextSize" format="dimension" />
+        <attr name="drp_eventColor" format="color" />
+        <attr name="drp_dayTextSize" format="dimension" />
+    </declare-styleable>
+</resources>

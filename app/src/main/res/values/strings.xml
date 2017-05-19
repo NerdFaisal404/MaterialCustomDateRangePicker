@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Material Data Range Picker</string>
+    <string name="clear">Clear</string>
+    <string name="check_out">Check out</string>
+    <string name="night_count">%d Night</string>
+    <string name="nights_count">%d Nights</string>
+    <string name="check_in_check_out">Check in / Check out</string>
+</resources>
